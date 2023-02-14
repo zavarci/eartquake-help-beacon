@@ -1,1 +1,1 @@
-# eartquake-help-beacon
+# eartquake-morse-beacon
