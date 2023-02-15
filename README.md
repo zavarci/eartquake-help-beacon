@@ -6,7 +6,7 @@ Part list
  
  -active buzzer
  
- -cr2032 battery
+ -cr2032 battery and holder
  
  and Arduino ide
  
