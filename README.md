@@ -4,7 +4,7 @@ Part list
 
  -attiny85
  
- -3v active buzzer
+ -passive buzzer
  
  -cr2032 battery and holder
  
