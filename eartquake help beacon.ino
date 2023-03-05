@@ -88,19 +88,19 @@ void loop() {
 
 // Helper functions for dot and dash
 void dot() {
-  digitalWrite(buzzerPin, HIGH);
+  tone(buzzerPin, 3000);
   digitalWrite(ledPin, HIGH);
   delay(100);
-  digitalWrite(buzzerPin, LOW);
+  noTone(buzzerPin);
   digitalWrite(ledPin, LOW);
   delay(100);
 }
 
 void dash() {
-  digitalWrite(buzzerPin, HIGH);
+ tone(buzzerPin, 3000);
   digitalWrite(ledPin, HIGH);
   delay(300);
-  digitalWrite(buzzerPin, LOW);
+  noTone(buzzerPin);
   digitalWrite(ledPin, LOW);
   delay(100);
 }
